@@ -1,0 +1,30 @@
+.navcontainer {
+    display: block;
+    width: 100%;
+    background-color: cyan;
+    margin: 14px 0;
+    
+  }
+
+.navlist ul{
+    list-style-type: none;
+    padding:0px;
+    
+}
+
+  .navlist ul li{
+list-style-type: none;
+
+
+
+  }
+  .navlist ul li a { 
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    background-color: #d32e2e;
+    color: white;
+    margin-bottom: 1px;
+    line-height: 50px;
+  }

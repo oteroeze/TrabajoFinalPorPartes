@@ -17,6 +17,21 @@
 
 }   
 
+
+.iconosH{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin-top: 10px;
+    
+}
+
+.iconH{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
 .welcome{
          font-weight: bolder;
          color: yellow;
@@ -75,7 +90,7 @@ a{
 
 
 .footer{
-    margin-top: 70%;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     
@@ -85,13 +100,21 @@ p{
     color: white;
     font-family:'Raleway', sans-serif;
     font-weight: bolder;
+    
 
 }
 
+
 @media (min-width: 720px){
 
+    body{
+        background-image: url(../img/welcome.jpeg);
+        background-repeat: no-repeat;    
+    }
+
+
     .footer{
-        margin-top: 45%;
+        margin-top: 200px;
         display: flex;
         flex-direction: row;
         justify-content:center;
@@ -104,9 +127,55 @@ p{
         font-family:'Raleway', sans-serif;
         font-weight: bolder;
         
+    }
+
+
+   
+    
+    
+
+    .iconH{
+    color: white;
+    font-size: 30px;
+    
     
     }
 
+
+
+
+}
+
+@media (min-width: 1200px){
+    
+    #titulo{
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 70px;
+        margin-top:2%;
+        
+    
+    }   
+
+    .footer{
+        margin-top: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        
+    }   
+
+    p{
+        color: white;
+        font-family:'Raleway', sans-serif;
+        font-weight: bolder;
+        font-size: 1em;
+        
+    }
 
 }
 

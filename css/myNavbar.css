@@ -1,0 +1,474 @@
+/* ONLY NAVBAR CONFIG */
+
+@media (min-width: 360px){
+
+    *{
+    margin: 0px;
+    padding: 0px;
+    
+    }
+
+  body{
+      background-color:white;
+      
+
+  }
+  header{
+      width:100%;
+     
+    }
+
+    .menu_bar{
+        display:block;
+        width: 100%;
+      }
+
+    .menu_bar .bt-menu{
+        display:block;
+        padding:20px;
+        background-color: black;
+        text-decoration: none;
+        font-weight:bold;
+        font-size: 25px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        color:white;
+        font-family: 'Raleway', sans-serif;
+          
+        }
+    .menu_bar span{
+          float: right;
+          font-size: 30px;
+          
+          
+        }
+
+  header nav{
+    width: 90%;
+    min-width: 360px;
+    background:black;
+    width:80%;
+    height: 100%;
+    margin: 0;
+    position:fixed;
+      
+    }
+
+ 
+
+  header nav ul{
+      overflow: hidden;
+      list-style: none;
+      
+    }
+   
+    header nav ul li{
+        display:block;
+        float: none;
+        border-bottom:1px solid rgba(255,255,255,0.3);
+        padding: 20px;
+      }
+
+    header nav ul li:hover{
+        background:#E56B70;
+        }  
+
+    header nav ul li a {
+      padding: 20px;
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    header nav ul li a span{
+      margin-right: 10px;
+      color: white;
+      
+      
+    }
+
+  
+
+    /*imagen de perfil*/
+
+    .container-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+        
+    }
+
+    .imagen-perfil{
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+        border: 1px black solid;
+    }
+
+    /* Datos Personales*/
+
+    .datos-personales{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .datos-personales h2{
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 15px;
+    }
+    .datos-personales h3{
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .datos-personales p{
+        margin-left: 7px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    /* Puntuacion de usuario*/
+
+    #form {
+        width: 250px;
+        margin: 0 auto;
+        height: 50px;
+      }
+      
+      #form p {
+        text-align: center;
+      }
+      
+      #form label {
+        font-size: 20px;
+      }
+      
+    input[type="radio"] {
+        display: none;
+      }
+      
+    label {
+        color: grey;
+        
+      }
+      
+    .clasificacion {
+        direction: rtl;
+        unicode-bidi: bidi-override;
+      }
+      
+    label:hover,
+    label:hover ~ label {
+        color: orange;
+      }
+      
+    input[type="radio"]:checked ~ label {
+        color: orange;
+        
+      }
+
+
+    /* Registered as Host*/
+
+    .host-or-helper{
+        background-image:url("../img/photo-header.jpeg");
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    .host-or-helper h1{
+        font-family: 'Raleway', sans-serif;
+        font-size:50px;
+        color: white;   
+        text-decoration: none; 
+    }
+
+    .host-or-helper h1 a{
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .host-or-helper h1 a:hover{
+        color: yellow;
+
+    }
+
+    /* Leave your comment*/
+
+    .leave-your-comment{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        border: 3px solid black;
+        width: 100%;
+    }
+
+    .leave-your-comment textarea{
+        background-image: url("../img/fondo-perfil.jpeg");
+        font-family: 'Raleway', sans-serif;
+        font-size:10px;
+       
+    }
+    /* Experiencias que ofrece */
+
+    .places{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        
+    }
+
+    .lugar{
+        width:80%;
+    }
+
+    .lugar h4{
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+        margin-bottom:10px;
+        font-size: 2em;
+
+
+    }
+
+    .lugar img{
+        width:90%;
+        height:150px;
+        
+  
+    }
+
+    .lugar p{
+        width: 90%;
+        font-family: 'Raleway', sans-serif;
+        
+    }
+
+    /* Comentarios de otros usuarios*/
+
+    footer{
+        background-image: url("../img/comments-background.jpeg");
+        
+    }
+
+    footer h3{
+        font-family:'Raleway', sans-serif; 
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-left:10px;
+        color: white;
+        
+
+    }
+    footer .reviews{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        
+
+    }
+
+    footer .reviews .comments{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 10px;
+        margin-bottom: 20px;
+
+    }
+
+    
+    footer .reviews .comments p{
+        font-family:'Raleway', sans-serif; 
+        color:white;
+        background-color: rgba(0,0,0,0.4)
+        
+        
+    }
+
+    .comments img{
+        border-radius: 100%;
+        border: 1px white solid;
+        width:80px;
+        height:60px;
+        margin-right:20px;
+        
+
+    }
+    
+}  
+    
+@media (min-width: 768px){
+
+/* Registered as Host*/
+
+.host-or-helper{
+    background-image:url("../img/photo-header.jpeg");
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.host-or-helper h1{
+    font-family: 'Raleway', sans-serif;
+    font-size:100px;
+    color: white;    
+}
+
+.lugar h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    margin-bottom:10px;
+    font-size: 3em;
+
+
+}
+
+.lugar img{
+    width:90%;
+    height:300px;
+
+}
+
+
+}
+
+@media (min-width: 1200px){
+
+    body{
+        background-color:white;
+        height: 100vh;
+        
+  
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+    }   
+    
+    .from-image-to-host{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width:50%;
+        margin-bottom: 40px;
+        height: 50%;
+    }
+    .container-img{
+        display: flex;
+        flex-direction: row;
+        margin: 10px auto;
+      
+        
+    }
+
+    .imagen-perfil{
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+        border: 1px black solid;
+    }
+
+    /* Datos Personales*/
+
+    .datos-personales{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        
+    }
+
+    .datos-personales h2{
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 15px;
+    }
+    .datos-personales h3{
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .datos-personales p{
+        margin-left: 7px;
+        font-family: 'Raleway', sans-serif; 
+    }
+
+    .host-or-helper{
+        background-image:url("../img/photo-header.jpeg");
+        display: flex;
+        flex-direction: row;
+        
+        
+        
+    }
+    .host-or-helper h1{
+        font-family: 'Raleway', sans-serif;
+        justify-content: center;
+    }
+
+    /* Experiencias que ofrece */
+
+    .places{
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        width: 50%;
+       
+
+        
+    }
+
+    .lugar{
+        width:80%;
+        
+        
+
+    }
+
+    
+
+    /* Leave your comment*/
+
+    .leave-your-comment{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        border: 3px solid black;
+        width: 100%;
+    }
+
+    .leave-your-comment textarea{
+        background-image: url("../img/fondo-perfil.jpeg");
+        font-family: 'Raleway', sans-serif;
+        font-size:20px;
+       
+    }
+
+
+
+    /* Footer se vuelve aside*/
+
+    .footer{
+        width:50%;
+        position: absolute;
+        top: 1000px;
+        
+
+
+    }
+    
+}
